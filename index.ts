@@ -1,4 +1,5 @@
 import * as lodash from  "lodash";
+import * as car from "./car";
 
 console.log("Test Typescript");
 console.log("===============");
@@ -24,5 +25,7 @@ function greeter(person: Person) {
 
 //let user = { firstName: "Jane", lastName: "User"};
 let user = new Student("Jane", "M.", "Smith");
+
+let myCar = new car.Car("red");
 
 console.log(greeter(user));
