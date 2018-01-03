@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var Student = /** @class */ (function () {
     function Student(firstName, lastName) {
         this.FirstName = firstName;
@@ -11,5 +11,4 @@ var Student = /** @class */ (function () {
     return Student;
 }());
 exports.Student = Student;
-
-//# sourceMappingURL=../maps/student.js.map
+//# sourceMappingURL=C:/Users/l.maddalena/Source/Repos2/TestTS/maps/student.js.map

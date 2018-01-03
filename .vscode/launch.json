@@ -9,6 +9,7 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}\\dist\\main.js",
+            "sourceMaps": true,
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]

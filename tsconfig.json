@@ -3,7 +3,9 @@
         "noImplicitAny": true,
         "noEmitOnError": true,
         "sourceMap": true,
-        "target": "es5"
+        "target": "es5",
+        "mapRoot": "maps",
+        "sourceRoot": "src"
     },
     "files": [
         "src/main.ts", "src/student.ts"
