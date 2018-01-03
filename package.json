@@ -2,7 +2,7 @@
   "name": "tests",
   "version": "1.0.0",
   "description": "Test Typescript",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,21 @@
   "license": "ISC",
   "dependencies": {
     "@types/lodash": "^4.14.91",
+    "del": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.3",
     "lodash": "^4.17.4",
     "typescript": "^2.6.2"
-  }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmaddalena/TestTS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lmaddalena/TestTS/issues"
+  },
+  "homepage": "https://github.com/lmaddalena/TestTS#readme"
 }
