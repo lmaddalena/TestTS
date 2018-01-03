@@ -56,8 +56,6 @@ gulp.task('clean', function () {
 
 gulp.task('default', function () {
     
-    tsc();
-    
     console.log('Moving .js files in dist folder');
 
     gulp.src(paths.scripts)
@@ -70,3 +68,5 @@ gulp.task('default', function () {
         .pipe(gulp.dest('maps'))
         .on('end', function(){ del(paths.maps); });        
 });
+
+
