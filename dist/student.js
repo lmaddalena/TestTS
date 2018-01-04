@@ -11,4 +11,4 @@ var Student = /** @class */ (function () {
     return Student;
 }());
 exports.Student = Student;
-//# sourceMappingURL=c:/Users/l.maddalena/Source/Repos2/TestTS/maps/student.js.map
+//# sourceMappingURL=student.js.map

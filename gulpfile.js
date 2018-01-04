@@ -35,38 +35,16 @@ gulp.task("default", function () {
 });
 */
 
-/// <binding AfterBuild='default' Clean='clean' />
-/*
-This file is the main entry point for defining Gulp tasks and using Gulp plugins.
-Click here to learn more. http://go.microsoft.com/fwlink/?LinkId=518007
-*/
-
 var gulp = require('gulp');
 var del = require('del');
 
 var paths = {
-    scripts: ['src/**/*.js'],
-    maps:  ['src/**/*.js.map']
+    scripts: ['src/**/*.js']
 };
 
 gulp.task('clean', function () {
-    console.log("Cleaning dist & maps folders");
-    return del(['dist/**/*', 'maps/**/*']);
-});
-
-gulp.task('default', function () {
-    
-    console.log('Moving .js files in dist folder');
-
-    gulp.src(paths.scripts)
-       .pipe(gulp.dest('dist'))
-       .on('end', function(){ del(paths.scripts); });
-
-    console.log('Moving .map files in dist folder');
-
-    gulp.src(paths.maps)
-        .pipe(gulp.dest('maps'))
-        .on('end', function(){ del(paths.maps); });        
+    console.log("Cleaning dist folder");
+    return del(['dist/**/*']);
 });
 
 
