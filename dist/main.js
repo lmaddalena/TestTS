@@ -14,4 +14,5 @@ var gzip = zlib.createGzip();
 var inp = fs.createReadStream('input.txt');
 var out = fs.createWriteStream('input.txt.gz');
 inp.pipe(gzip).pipe(out);
+console.log(__dirname);
 //# sourceMappingURL=main.js.map
