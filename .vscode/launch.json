@@ -12,7 +12,8 @@
             "sourceMaps": true,
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
-            ]
+            ],
+            "preLaunchTask": "build"
         }
     ]
 }
